@@ -7,11 +7,20 @@ A small, easy-to-read Python TCP port scanner with support for both IPv4 and IPv
 ## Features
 
 - Resolve hostnames to IPv4 and/or IPv6 addresses
-
 - Scan single ports, ranges, comma-separated lists, or a preset "well-known" list
-
 - Concurrent scanning using ```ThreadPoolExecutor``` for speed
-
 - Minimal dependencies (Python 3 standard library only)
-
 - Compact and easy-to-read single-file script
+
+---
+
+## Files
+
+- ```simple_port_scanner.py``` - the scanner script (single-file)
+
+---
+
+## Requirements
+
+- Python 3.7+ (uses ```concurrent.futures``` and standard socket API)
+- No external libraries required
