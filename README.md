@@ -10,7 +10,7 @@ A small, easy-to-read Python TCP port scanner with support for both IPv4 and IPv
 
 - Scan single ports, ranges, comma-separated lists, or a preset "well-known" list
 
-- Concurrent scanning using ThreadPoolExecutor for speed
+- Concurrent scanning using ```ThreadPoolExecutor``` for speed
 
 - Minimal dependencies (Python 3 standard library only)
 
