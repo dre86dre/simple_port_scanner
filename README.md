@@ -107,8 +107,14 @@ Open ports: 80
 
 ## Notes, caveats & troubleshooting
 
-- #Authorization: Port scanning can be intrusive and may violate terms of service or local laws if done without permission. Always get explicit authorization before scanning systems you do not own.
+- Authorization: Port scanning can be intrusive and may violate terms of service or local laws if done without permission. Always get explicit authorization before scanning systems you do not own.
 - Link-local IPv6: Some IPv6 addresses (e.g., ```fe80::/...```) are link-local and require a scope/zone identifier (like ```%eth0```) to be reachable. The script uses ```getaddrinfo()``` and should work for general cases, but link-local scenarios may need extra care.
-- Performance & detection: Increasing --workers speeds scans but can trigger IDS/IPS, rate-limiting, or overwhelm your network/host. Tune --workers and --timeout carefully.
+- Performance & detection: Increasing ```--workers``` speeds scans but can trigger IDS/IPS, rate-limiting, or overwhelm your network/host. Tune ```--workers``` and ```--timeout``` carefully.
 - Permissions: No special root privileges are required for TCP connect scans, but some environments may restrict outbound connections.
-- IPv6 support: The scanner attempts both IPv4 and IPv6 by default. If you only need one family, use --ipv4 or --ipv6 to avoid unnecessary resolution attempts.
+- IPv6 support: The scanner attempts both IPv4 and IPv6 by default. If you only need one family, use ```--ipv4``` or ```--ipv6``` to avoid unnecessary resolution attempts.
+
+---
+
+## License
+
+MIT-style - feel free to reuse and modify, but do not use it for unauthorized scanning.
