@@ -78,3 +78,27 @@ python3 simple_scanner.py --ipv4 example.com
 ```
 python3 simple_scanner.py -w 300 -t 0.5 -p 1-65535 example.com
 ```
+
+---
+
+## Output
+
+- Prints resolved addresses (IPv4/IPv6)
+- Prints ```"[+] Port <n> is open"``` for each open port discovered
+- Prints a final summary with a list of open ports (if any)
+
+### Example output
+
+```
+============================================================
+Target: example.com
+  - 93.184.216.34 (IPv4)
+Ports: 3  Timeout: 1.0s  Workers: 200
+Started: 2025-10-07T12:34:56.789012
+============================================================
+[+] Port 80 is open
+============================================================
+Finished: 2025-10-07T12:35:00.123456
+Open ports: 80
+============================================================
+```
