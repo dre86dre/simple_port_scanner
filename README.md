@@ -117,4 +117,4 @@ Open ports: 80
 
 ## License
 
-MIT-style - feel free to reuse and modify, but do not use it for unauthorized scanning.
+MIT-style - feel free to re-use and modify, but do not use it for unauthorized scanning.
