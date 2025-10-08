@@ -40,3 +40,17 @@ chmod +x simple_scanner.py
 
 ## Usage
 
+```
+python3 simple_scanner.py [options] <target>
+```
+Or, if executable:
+```
+./simple_scanner.py [options] <target>
+```
+
+### Examples
+
+- Scan default ports (1–1024) on ```example.com``` (both IPv4 & IPv6 by default):
+```
+python3 simple_scanner.py example.com
+```
