@@ -117,4 +117,4 @@ Open ports: 80
 
 ## License
 
-MIT License. See [LICENSE](https://github.com/dre86dre/Log-Parser/blob/main/LICENSE) for details - feel free to re-use and modify, but do not use it for unauthorized scanning.
+MIT License. See [LICENSE](https://github.com/dre86dre/simple_port_scanner/blob/main/LICENSE) for details - feel free to re-use and modify, but do not use it for unauthorized scanning.
