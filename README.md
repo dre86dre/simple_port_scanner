@@ -54,3 +54,27 @@ Or, if executable:
 ```
 python3 simple_scanner.py example.com
 ```
+- Scan a single port:
+```
+python3 simple_scanner.py -p 22 example.com
+```
+- Scan multiple comma-separated ports and ranges:
+```
+python3 simple_scanner.py -p 22,80,443,8000-8010 example.com
+```
+- Scan the preset well-known ports:
+```
+python3 simple_scanner.py --well-known example.com
+```
+- Force IPv6-only resolution/scan:
+```
+python3 simple_scanner.py --ipv6 example.com
+```
+- Force IPv4-only:
+```
+python3 simple_scanner.py --ipv4 example.com
+```
+- Increase concurrency and change timeout (tune carefully):
+```
+python3 simple_scanner.py -w 300 -t 0.5 -p 1-65535 example.com
+```
