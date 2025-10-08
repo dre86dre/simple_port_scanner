@@ -24,3 +24,19 @@ A small, easy-to-read Python TCP port scanner with support for both IPv4 and IPv
 
 - Python 3.7+ (uses ```concurrent.futures``` and standard socket API)
 - No external libraries required
+
+---
+
+## Installation
+
+1. Save the ```simple_port_scanner.py``` script to a directory on your machine.
+2. Make it executable (optional):
+
+```
+chmod +x simple_scanner.py
+```
+
+---
+
+## Usage
+
